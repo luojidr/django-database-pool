@@ -3,7 +3,7 @@ import os
 
 version = '1.1.0'
 
-setup(name='django-database-pool',
+setup(name='django-database-conn-pool',
       version=version,
       description="django database backend pooling for connections",
       long_description=open("README.md").read(),
@@ -28,7 +28,7 @@ setup(name='django-database-pool',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          'django>=3.0,django<=4.0.8',
+          'django>=3.0,<=4.0.8',
           'sqlalchemy==1.4.44',
           'cx-Oracle==8.3.0',
           'psycopg2==2.9.5'
@@ -36,4 +36,4 @@ setup(name='django-database-pool',
       entry_points="""
       # -*- Entry points: -*-
       """,
-)
+      )

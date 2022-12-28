@@ -1,16 +1,16 @@
 Push messages with different backends for the Django framework.
 ===============================================================
 
-[![MIT License](https://img.shields.io/pypi/l/django-database-pool.svg)](https://opensource.org/licenses/MIT)
-[![django-database-pool can be installed via wheel](https://img.shields.io/pypi/wheel/django-database-pool.svg)](http://pypi.python.org/pypi/django-database-pool/)
-[![Supported Python versions.](https://img.shields.io/pypi/pyversions/django-database-pool.svg)](http://pypi.python.org/pypi/django-database-pool/)
+[![MIT License](https://img.shields.io/pypi/l/django-database-conn-pool.svg)](https://opensource.org/licenses/MIT)
+[![django-database-conn-pool can be installed via wheel](https://img.shields.io/pypi/wheel/django-database-conn-pool.svg)](http://pypi.python.org/pypi/django-database-conn-pool/)
+[![Supported Python versions.](https://img.shields.io/pypi/pyversions/django-database-conn-pool.svg)](http://pypi.python.org/pypi/django-database-conn-pool/)
 
 |          |               |   
 | ---------|:--------------| 
 | Version  |1.1.0           | 
 | Web      |               |  
-| Download |<http://pypi.python.org/pypi/django-database-pool>  |  
-| Source   |<https://github.com/luojidr/django-database-pool>   | 
+| Download |<http://pypi.python.org/pypi/django-database-conn-pool>  |  
+| Source   |<https://github.com/luojidr/django-database-conn-pool>   | 
 | Keywords |django, database pool, MySQL, PostgreSQL, Oracle    | 
 
 
@@ -23,13 +23,13 @@ Work fine in multiprocessing and multithreading django project.
 Installation
 ------------
 
-You can install django-database-pool either via the Python Package Index
+You can install django-database-conn-pool either via the Python Package Index
 (PyPI) or from source.
 
 To install using **pip**:
 
 ``` {.sh}
-$ pip install -U django-database-pool
+$ pip install -U django-database-conn-pool
 ```
 
 and then add it to your installed apps:
@@ -80,8 +80,8 @@ OR
 
 ### Downloading and installing from source
 
-Download the latest version of django-database-pool from
-<http://pypi.python.org/pypi/django-database-pool>
+Download the latest version of django-database-conn-pool from
+<http://pypi.python.org/pypi/django-database-conn-pool>
 
 You can install it by doing the following,:
 
