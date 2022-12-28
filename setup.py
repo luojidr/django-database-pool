@@ -1,11 +1,13 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 import os
 
-version = '1.1.0'
+version = '1.1.1'
 
 setup(
     name='django-database-conn-pool',
     version=version,
+    maintainer="luojidr",
+    maintainer_email='luojidr@163.com',
     description="django database backend pooling for connections",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
@@ -26,7 +28,7 @@ setup(
     author_email='luojidr@163.com',
     url='https://github.com/luojidr/django-database-pool',
     license='MIT',
-    packages=['database_pool'],
+    packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
     install_requires=[
@@ -35,7 +37,4 @@ setup(
         'cx-Oracle==8.3.0',
         'psycopg2==2.9.5'
     ],
-    entry_points="""
-    # -*- Entry points: -*-
-    """,
 )

@@ -7,7 +7,7 @@ Push messages with different backends for the Django framework.
 
 |          |               |   
 | ---------|:--------------| 
-| Version  |1.1.0           | 
+| Version  |1.1.1           | 
 | Web      |               |  
 | Download |<http://pypi.python.org/pypi/django-database-conn-pool>  |  
 | Source   |<https://github.com/luojidr/django-database-conn-pool>   | 
