@@ -1,0 +1,2 @@
+class PoolDoesNotExist(Exception):
+    pass
