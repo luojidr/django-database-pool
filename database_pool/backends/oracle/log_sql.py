@@ -31,7 +31,7 @@ class SQLLogMiddleware:
         or at bottom of the page if django DEBUG is set
     """
 
-    def process_response ( self, request, response ):
+    def process_response(self, request, response):
         """ SQL logging to screen switched on by settings.DEBUG
             SQL logging to log dependent on database logger level
             ie. EXTRAS['log'] = 10
@@ -69,6 +69,7 @@ class SQLLogMiddleware:
                 logger.debug('Executed %s queries in %s' % (len(connection.queries),time))
                 for query in connection.queries:
                     logger.debug(query)
+
         return response
 
     def pool(self):

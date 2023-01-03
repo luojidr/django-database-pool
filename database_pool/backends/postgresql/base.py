@@ -10,3 +10,4 @@ class DatabaseWrapper(DBPoolWrapperMixin, Pg2DatabaseWrapper):
     class SQLAlchemyDialect(PGDialect_psycopg2):
         pass
 
+# from .wrapper import DatabaseWrapper
